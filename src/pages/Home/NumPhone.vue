@@ -19,8 +19,8 @@ const countriesCodes = ref([]);
 
 // countryCode is the default value that display in html code **'like select box default value'**
 const countryCode = reactive({
-  code: '',
-  flag: ''
+  code: '+20',
+  flag: 'fi fi-eg'
 });
 // finalResult is a final result of Country Code && National Number after analysis it from google-libphonenumber library
  const finalResult = reactive({
