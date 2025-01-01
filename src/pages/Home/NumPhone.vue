@@ -114,7 +114,6 @@ const validatePhoneNumber = (phone, countryCode) => {
 
     finalResult.Country_Code =JSON.stringify(parsedNumber.getCountryCode())
     finalResult.National_Number =JSON.stringify(parsedNumber.getNationalNumber())
-    console.log(finalResult)
     const isValid = phoneUtil.isValidNumber(parsedNumber);
     if (!isValid) {
       errors.value = "The phone number is invalid"
