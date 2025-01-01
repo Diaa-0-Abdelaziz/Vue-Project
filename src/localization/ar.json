@@ -1,0 +1,30 @@
+{
+    "Home":"الرئيسية",
+    "Projects":"المشاريع",
+    "Add Car":"إضافة سيارة",
+    "The phone number is invalid": "رقم الهاتف غير صالح",
+  "The string supplied did not seem to be a phone number": "السلسلة المدخلة لا تبدو كرقم هاتف",
+  "The string supplied is too short to be a phone number": "الرقم المدخل قصير جدًا ليكون رقم هاتف",
+  "The string supplied is too long to be a phone number": "الرقم المدخل طويل جدًا ليكون رقم هاتف",
+  "name": "الاسم",
+  "phone": "الهاتف",
+  "welcome": "مرحبًا من الصفحة الرئيسية",
+  "child": "مرحبًا من المكون الفرعي",
+  "Submit":"دوس مايهمكش",
+  "fields": [
+    {
+      "label": "الاسم",
+      "validation_messages": {
+        "required": "هذا الحقل مطلوب"
+      }
+    },
+    {
+      "label": "الهاتف",
+      "placeholder": "أدخل رقم هاتفك",
+      "validation_messages": {
+        "phone": "رقم الهاتف غير صحيح"
+      }
+    }
+  ]
+
+}
